@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-16T02:52:19.467Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="ZyHPVPtcVc5vJA2GjynU" version="15.9.6" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-12-16T07:25:24.338Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="tSuCA2nbnLwQLYLC_PsX" version="15.9.6" type="github" pages="4">
   <diagram name="第 0 页" id="7SCm7X1oim8M1oKMD6Wj">
     <mxGraphModel dx="946" dy="503" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -249,9 +249,6 @@
         <mxCell id="WShSjZ7iAAt_4kcY2VJ5-32" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="WShSjZ7iAAt_4kcY2VJ5-11" vertex="1">
           <mxGeometry x="25" y="240" width="10" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="WShSjZ7iAAt_4kcY2VJ5-46" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="WShSjZ7iAAt_4kcY2VJ5-11" vertex="1">
-          <mxGeometry x="25" y="410" width="10" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="LzbOUSj-QeAD0FJS8F---4" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="WShSjZ7iAAt_4kcY2VJ5-11" vertex="1">
           <mxGeometry x="25" y="660" width="10" height="35" as="geometry" />
         </mxCell>
@@ -301,17 +298,17 @@
             <mxPoint x="655" y="210" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="WShSjZ7iAAt_4kcY2VJ5-29" value="轮询仿真结果 &amp;amp; 回放" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;" parent="1" source="WShSjZ7iAAt_4kcY2VJ5-11" target="WShSjZ7iAAt_4kcY2VJ5-28" edge="1">
+        <mxCell id="WShSjZ7iAAt_4kcY2VJ5-29" value="轮询任务结果 &amp;amp;任务状态" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;" parent="1" source="WShSjZ7iAAt_4kcY2VJ5-11" target="WShSjZ7iAAt_4kcY2VJ5-28" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="405" y="260" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="WShSjZ7iAAt_4kcY2VJ5-30" value="返回仿真结果&amp;amp;回放" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;rounded=0;" parent="1" source="WShSjZ7iAAt_4kcY2VJ5-28" target="WShSjZ7iAAt_4kcY2VJ5-11" edge="1">
+        <mxCell id="WShSjZ7iAAt_4kcY2VJ5-30" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;rounded=0;" parent="1" source="WShSjZ7iAAt_4kcY2VJ5-28" target="WShSjZ7iAAt_4kcY2VJ5-11" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="405" y="336" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="WShSjZ7iAAt_4kcY2VJ5-35" value="上报仿真结果&amp;amp;回放" style="html=1;verticalAlign=bottom;endArrow=block;entryX=1;entryY=0;rounded=0;endSize=6;startSize=6;" parent="1" target="WShSjZ7iAAt_4kcY2VJ5-34" edge="1">
+        <mxCell id="WShSjZ7iAAt_4kcY2VJ5-35" value="上报任务结果" style="html=1;verticalAlign=bottom;endArrow=block;entryX=1;entryY=0;rounded=0;endSize=6;startSize=6;" parent="1" target="WShSjZ7iAAt_4kcY2VJ5-34" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="480" y="355" as="sourcePoint" />
           </mxGeometry>
@@ -340,28 +337,6 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="180" y="550" as="targetPoint" />
             <mxPoint x="910" y="540" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="WShSjZ7iAAt_4kcY2VJ5-47" value="仿真结果回调" style="html=1;verticalAlign=bottom;endArrow=block;entryX=1;entryY=0;rounded=0;" parent="1" source="WShSjZ7iAAt_4kcY2VJ5-12" target="WShSjZ7iAAt_4kcY2VJ5-46" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="385" y="430" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="WShSjZ7iAAt_4kcY2VJ5-48" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;exitX=1.04;exitY=0.24;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="WShSjZ7iAAt_4kcY2VJ5-46" target="WShSjZ7iAAt_4kcY2VJ5-12" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="440" y="450" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="WShSjZ7iAAt_4kcY2VJ5-53" value="主动上报仿真结果" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;exitX=0.08;exitY=0.507;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.911;entryY=0.527;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="WShSjZ7iAAt_4kcY2VJ5-46" target="WShSjZ7iAAt_4kcY2VJ5-34" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="310" y="460" as="sourcePoint" />
-            <mxPoint x="360" y="465" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="WShSjZ7iAAt_4kcY2VJ5-54" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;" parent="1" target="WShSjZ7iAAt_4kcY2VJ5-11" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="245" y="487" as="targetPoint" />
-            <mxPoint x="360" y="478" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="WShSjZ7iAAt_4kcY2VJ5-57" value="biz-service" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="1" vertex="1">
@@ -400,7 +375,7 @@
             <mxPoint x="790" y="100" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TEx84sVC3yWoPWmnLdWA-1" value="发送mq消息&amp;nbsp; &amp;nbsp;仿真/评测报告 &amp;amp; 回放" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;startSize=6;endSize=6;exitX=1.016;exitY=0.813;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="WShSjZ7iAAt_4kcY2VJ5-34" target="WShSjZ7iAAt_4kcY2VJ5-63" edge="1">
+        <mxCell id="TEx84sVC3yWoPWmnLdWA-1" value="发送mq消息&amp;nbsp; &amp;nbsp;仿真/评测结果" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;startSize=6;endSize=6;exitX=1.016;exitY=0.813;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="WShSjZ7iAAt_4kcY2VJ5-34" target="WShSjZ7iAAt_4kcY2VJ5-63" edge="1">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="570" y="420" as="sourcePoint" />
             <mxPoint x="650" y="420" as="targetPoint" />
